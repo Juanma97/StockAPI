@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class StocksService {
-    public Stock getStockFromSymbol(String ticker) {
+    public Stock getStockFromTicker(String ticker) {
         return null;
     }
 }

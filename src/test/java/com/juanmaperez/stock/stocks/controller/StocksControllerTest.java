@@ -16,9 +16,9 @@ class StocksControllerTest {
     @Test
     public void should_call_service_to_get_stock_from_symbol() {
         final String ticker = "GOOG";
-        sut.getStockFromSymbol(ticker);
+        sut.getStockFromTicker(ticker);
 
-        verify(stocksService).getStockFromSymbol(ticker);
+        verify(stocksService).getStockFromTicker(ticker);
     }
 
 }
